@@ -10,6 +10,7 @@ class CategoriesController < ApplicationController
 
   # GET /categories/1
   def show
+    @category = Recipe.where("category_id = #{params[:id]}")
     render json: @category
   end
 
