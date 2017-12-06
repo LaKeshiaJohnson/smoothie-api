@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+xclass UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
 
   # GET /users
@@ -6,6 +6,10 @@ class UsersController < ApplicationController
     @users = User.all
 
     render json: @users
+  end
+
+  def new
+    @user = User.new
   end
 
   # GET /users/1
