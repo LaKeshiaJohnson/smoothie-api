@@ -1,6 +1,7 @@
-xclass UsersController < ApplicationController
+class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
 
+  
   # GET /users
   def index
     @users = User.all
@@ -52,4 +53,7 @@ xclass UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:first_name, :last_name, :email, :password)
     end
+
+
+
 end
