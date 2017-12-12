@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   #get 'login', to: 'sessions#new', as: 'login'
   #get 'logout', to: 'sessions#destroy', as: 'logout'
   post 'authenticate', to: 'authentication#authenticate'
+
+  get 'myrecipes', to: 'recipes#myrecipes'
   
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
