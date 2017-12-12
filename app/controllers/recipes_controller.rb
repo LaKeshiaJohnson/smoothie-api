@@ -8,6 +8,13 @@ class RecipesController < ApplicationController
     render json: @recipes
   end
 
+  def myrecipes
+    @recipes = @current_user.recipes
+    #@recipes = Recipe.where(“user_id = @current_user”)
+    
+    render json: @recipes
+  end
+
   # GET /recipes/1
   def show
     #@recipes_by_category = Recipe.where(params[:category_id])
