@@ -3,13 +3,14 @@ class FavoritesController < ApplicationController
 
   # GET /favorites
   def index
-    @favorites = Favorite.all
+    @favorites = @current_user.favorites
 
     render json: @favorites
   end
 
   # GET /favorites/1
   def show
+    #@favorites = favorites.where("user_id = #{params[:user_id]}")
     render json: @favorite
   end
 
