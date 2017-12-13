@@ -8,9 +8,17 @@ class CategoriesController < ApplicationController
     render json: @categories
   end
 
+  def categoryname
+    #@categories = Category.where("id = #{params[:id]}")
+     @category = Category.find(params[:id])
+    
+    render json: @category
+  end
+
   # GET /categories/1
   def show
     @category = Recipe.where("category_id = #{params[:id]}")
+    #@category = Category.find(params[:id])
     render json: @category
   end
 
