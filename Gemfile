@@ -21,6 +21,8 @@ gem 'puma', '~> 3.7'
  gem 'jwt'
  gem 'simple_command'
 
+ gem 'active_model_serializers', '0.9.3'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

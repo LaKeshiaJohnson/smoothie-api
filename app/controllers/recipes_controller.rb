@@ -15,6 +15,13 @@ class RecipesController < ApplicationController
     render json: @recipes
   end
 
+=begin def recipename
+   @recipes = Favorites.where("recipe_id = #{params[:id]}")
+      render json: @recipes
+
+  end
+=end
+
   # GET /recipes/1
   def show
     render json: @recipe

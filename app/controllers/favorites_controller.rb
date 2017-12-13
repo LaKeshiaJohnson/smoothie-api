@@ -5,7 +5,7 @@ class FavoritesController < ApplicationController
   def index
     @favorites = @current_user.favorites
 
-    render json: @favorites
+    render json: @favorites, include: "recipe"
   end
 
   # GET /favorites/1
