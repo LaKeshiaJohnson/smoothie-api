@@ -17,6 +17,8 @@ Rails.application.routes.draw do
   post 'authenticate', to: 'authentication#authenticate'
 
   get 'myrecipes', to: 'recipes#myrecipes'
+
+  get 'categoryname/:id', to: 'categories#categoryname'
   
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
