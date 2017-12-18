@@ -42,3 +42,28 @@ Recipe.create(user_id: "1", category_id: "7", title: "Constipation Cure", descri
 
 Recipe.create(user_id: "1", category_id: "8", title: "Cashew Milk", description: "Packed with heart healthy omega -3s, -6s, and -9s.", ingredient1: "1 cup raw cashews", ingredient2: "1 cup purified water", ingredient3: "1 tablespoon ground flax seed", directions: "Blend until ingredients are thoroughly combined.", notes: "Taken from the 'I love my NutriBullet Recipe Book'", public: "t")
 Recipe.create(user_id: "1", category_id: "8", title: "Healthy Beets for Regular Beats", description: "Support heart health with essential minerals, cleansing fiber, and protective antioxidants.", ingredient1: "1 red beet, greens removed, chopped", ingredient2: " 1 banana, peeled and frozen", ingredient3: "1/2 cup spinach", ingredient4: "1 cup organic apple juice", directions: "Blend until ingredients are thoroughly combined.", notes: "Taken from the 'I love my NutriBullet Recipe Book'", public: "t")
+
+
+Guide.create(item: "Apple", description: "Antioxidant rich and high in fiber. Believed to help fight cancer, heart disease, weight gain, and high cholestrol.")
+Guide.create(item: "Avocados", description: "Rich in vitamins, minerals, and protein. Avocados contain the highest concentrations of monounsaturated fats among all fruits.")
+Guide.create(item: "Bananas", description: "Contain potassium, fiber, maganese, and vitamin C. Assit with sleep and enhance immune function.")
+Guide.create(item: "Blueberries", description: "Contain vitamin C, and vitamin K. High in fiber and renowned for anti-inflammatory and cancer fighting chemicals.")
+Guide.create(item: "Kiwi", description: "Rich source of vitamin C and dietary fiber. Omega-3 fatty acids within its seeds may reduce the risk of blood clots.")
+Guide.create(item: "Oranges", description: "Rich in vitamin C. Citrus appears to offer the most significant protection against mouth and stomach cancers.")
+Guide.create(item: "Peaches", description: "Packed with vitamin C, beta-carotene, and antioxidants.")
+Guide.create(item: "Pineapples", description: "Pineapples contain minerals and vitamins that support immunity, soothe digestion, and provide anti-inflammatory benefits.")
+Guide.create(item: "Strawberries", description: "Loaded with heart-protecting, anti-cancer, and anti-inflammatory phenols.")
+Guide.create(item: "Watermelon", description: "Loaded with vitamin A, vitamnin C, and lycopene, which helps to neutralize free radicals.")
+
+Guide.create(item: "Kale", description: "Contains high concentrations of carotenoids and flavanoids - proven to aid in the prevention of bladder, breast, colon, ovary, and prostate cancers.")
+Guide.create(item: "Romaine", description: "This popular lettuce supports heart health with its wealth of vitamins A, K, and C.")
+Guide.create(item: "Spinach", description: "Contains blood pressure reducing proteins called peptides, cancer fighting phytonutrients, and bone building vitamin K.")
+Guide.create(item: "Spring Greens", description: "Rich in vitamin C, folic acid, and dietary fiber.")
+Guide.create(item: "Swiss Chard", description: "Offers dietary fiber, which helps reuglate blood sugar levels. Also contains vitamins C, E, K, and beta-carotene.")
+
+Guide.create(item: "Almonds", description: "Rich in monounsaturated fats, high in heart-healthy magnesium, and blood pressure regulating potassium.")
+Guide.create(item: "Cashews", description: "Known for its high monounsaturated fat content. These fats contain heart-healthy oleic acid which is healthful for diabetics.")
+Guide.create(item: "Chia Seeds", description: "Contains a super blend of protein, carbs, fat, and fiber, making it an ideal energy booster. Also high in Omega-3 and Omega-6 fatty acids.")
+Guide.create(item: "Flax Seeds", description: "Rich in Omega-3 fallty acids. Also supply a healthy dose of dietary fiber, and contain orgainc compunds that help lower cholesterol.")
+Guide.create(item: "Goji Berries", description: "This antioxidant powerhouse is renowned for slowing the aging process, boosting brain cell counts, and protecting the body against disease.")
+
