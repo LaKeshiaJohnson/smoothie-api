@@ -21,6 +21,8 @@ Rails.application.routes.draw do
   get 'categoryname/:id', to: 'categories#categoryname'
 
   get 'recipename/:id', to: 'recipes#recipename'
+
+  patch 'editrecipe/:id', to: 'recipes#editrecipe'
   
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
