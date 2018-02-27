@@ -1,24 +1,24 @@
-# README
+# Smoothie API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is built with Rails API.
 
-Things you may want to cover:
+### Description:
+In the spirit of ‘letting food be our medicine', the Blend app, provides users with healthy smoothie recipes that target different ailments and health concerns. Users will be able to view recipes by category/concern, save their favorite recipes, and submit their own smoothie creations.
 
-* Ruby version
 
-* System dependencies
+### Installing
+```
+bundle install
+rails db:migrate
+rails db:seed
+```
 
-* Configuration
 
-* Database creation
+You'll need to run rails server by opening a new terminal tab and running:
 
-* Database initialization
+```
+rails s
+```
 
-* How to run the test suite
+This api needs the [Blend App](https://github.com/LaKeshiaJohnson/blend)in order for it to run. Please visit the Blend repo for instructions on how to run the Blend app on your machine.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
